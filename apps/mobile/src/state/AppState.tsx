@@ -38,7 +38,7 @@ interface AppStateValue {
 const Ctx = createContext<AppStateValue | null>(null);
 
 export function AppStateProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<ThemeName>('light');
+  const [theme, setTheme] = useState<ThemeName>('dark');
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [locationOn, setLocationOnState] = useState(false);
   const [position, setPosition] = useState<{ lat: number; lng: number } | null>(null);

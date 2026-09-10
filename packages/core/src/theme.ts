@@ -1,85 +1,85 @@
-// Design tokens translated from the Classical design system
-// (_ds/classical-*/styles.css) into plain JS so both the web app (as CSS
+// Design tokens translated from the Nocturne design system
+// (_ds/nocturne-*/styles.css) into plain JS so both the web app (as CSS
 // variables) and the React Native app (as StyleSheet values) read from one
 // source. Keep these in sync with styles.css if the design changes.
 
 export const fonts = {
-  heading: 'Cormorant Garamond', // RN: load via expo-font; web: Google Fonts import
-  headingWeight: '600',
-  body: 'Lora',
+  heading: 'Inter', // RN: load via expo-font; web: Google Fonts import
+  headingWeight: '500',
+  body: 'Inter',
 };
 
 export const space = {
-  1: 4.6,
-  2: 9.2,
-  3: 13.8,
-  4: 18.4,
-  6: 27.6,
-  8: 36.8,
+  1: 2.8,
+  2: 5.6,
+  3: 8.4,
+  4: 11.2,
+  6: 16.8,
+  8: 22.4,
 };
 
 export const radius = {
-  sm: 2,
-  md: 4,
-  lg: 7,
-};
-
-const lightColors = {
-  bg: '#f3f2f2',
-  surface: '#eae9e9',
-  text: '#201f1d',
-  accent: '#b68235',
-  accent2: '#ac803e',
-  divider: 'rgba(32,31,29,0.16)',
-
-  neutral100: '#f8f4f4',
-  neutral200: '#eae7e7',
-  neutral300: '#d7d3d3',
-  neutral400: '#bab6b6',
-  neutral500: '#9b9797',
-  neutral600: '#7d7979',
-  neutral700: '#605d5d',
-  neutral800: '#444141',
-  neutral900: '#2d2b2b',
-
-  accent100: '#fff3e4',
-  accent200: '#ffe3bf',
-  accent300: '#facb8d',
-  accent700: '#7d5411',
-  accent800: '#5a3b0a',
-
-  shadowSm: '0 1px 2px rgba(45,43,43,0.14)',
-  shadowMd: '0 3px 10px rgba(45,43,43,0.16)',
-  shadowLg: '0 12px 32px rgba(45,43,43,0.22)',
+  sm: 4,
+  md: 8,
+  lg: 14,
 };
 
 const darkColors = {
-  bg: '#1c1a17',
-  surface: '#272420',
-  text: '#f3eee5',
-  accent: '#dcb271',
-  accent2: '#dcb271',
-  divider: 'rgba(243,238,229,0.18)',
+  bg: '#161826',
+  surface: '#232532',
+  text: '#e9e9ed',
+  accent: '#9184d9',
+  accent2: '#a7a1db',
+  divider: 'rgba(233,233,237,0.16)',
 
-  neutral100: '#232019',
-  neutral200: '#2d2a23',
-  neutral300: '#3c382f',
-  neutral400: '#4a463c',
-  neutral500: '#726b5c',
-  neutral600: '#a49b8b',
-  neutral700: '#c0b7a6',
-  neutral800: '#ece5d8',
-  neutral900: '#f3eee5',
+  neutral100: '#2b2e3d',
+  neutral200: '#333650',
+  neutral300: '#3f424d',
+  neutral400: '#595d6c',
+  neutral500: '#75798c',
+  neutral600: '#9397ab',
+  neutral700: '#b2b6ca',
+  neutral800: '#cfd3e5',
+  neutral900: '#f3f5fe',
 
-  accent100: '#332718',
-  accent200: '#3f311d',
-  accent300: '#5c4526',
-  accent700: '#eccd97',
-  accent800: '#f2dbb1',
+  accent100: '#2b2741',
+  accent200: '#423a6a',
+  accent300: '#5d5294',
+  accent700: '#b5abfc',
+  accent800: '#d2cefd',
 
-  shadowSm: '0 1px 2px rgba(0,0,0,0.5)',
-  shadowMd: '0 3px 12px rgba(0,0,0,0.55)',
-  shadowLg: '0 12px 32px rgba(0,0,0,0.65)',
+  shadowSm: '0 0 0 1px #3f424d',
+  shadowMd: '0 0 0 1px #595d6c, 0 6px 18px rgba(0,0,0,0.55)',
+  shadowLg: '0 0 0 1px #9397ab, 0 16px 40px rgba(0,0,0,0.65)',
+};
+
+const lightColors = {
+  bg: '#f3f5fe',
+  surface: '#e9ecf8',
+  text: '#292b31',
+  accent: '#796cbf',
+  accent2: '#7972a9',
+  divider: 'rgba(41,43,49,0.16)',
+
+  neutral100: '#eef1fa',
+  neutral200: '#e4e7f5',
+  neutral300: '#cfd3e5',
+  neutral400: '#b2b6ca',
+  neutral500: '#9397ab',
+  neutral600: '#75798c',
+  neutral700: '#595d6c',
+  neutral800: '#3f424d',
+  neutral900: '#292b31',
+
+  accent100: '#e7e5fe',
+  accent200: '#d2cefd',
+  accent300: '#b5abfc',
+  accent700: '#423a6a',
+  accent800: '#5d5294',
+
+  shadowSm: '0 1px 2px rgba(41,43,49,.14)',
+  shadowMd: '0 4px 14px rgba(41,43,49,.16)',
+  shadowLg: '0 14px 36px rgba(41,43,49,.22)',
 };
 
 export type ThemeName = 'light' | 'dark';

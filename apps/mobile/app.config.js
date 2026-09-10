@@ -6,6 +6,7 @@ module.exports = {
     version: '0.1.0',
     orientation: 'portrait',
     userInterfaceStyle: 'automatic',
+    icon: './assets/icon.png',
     ios: {
       bundleIdentifier: 'org.mihrab.app',
       supportsTablet: true,
@@ -13,6 +14,11 @@ module.exports = {
       infoPlist: {
         NSLocationWhenInUseUsageDescription:
           "Mihrab uses your location to show the nearest mosque and how long the walk is. You can decline and search by city instead.",
+      },
+      splash: {
+        backgroundColor: '#161826',
+        image: './assets/splash-icon-dark.png',
+        resizeMode: 'contain',
       },
     },
     android: {
@@ -23,11 +29,18 @@ module.exports = {
           apiKey: process.env.GOOGLE_MAPS_API_KEY_ANDROID,
         },
       },
+      adaptiveIcon: {
+        foregroundImage: './assets/adaptive-icon-foreground.png',
+        monochromeImage: './assets/adaptive-icon-monochrome.png',
+        backgroundColor: '#161826',
+      },
       splash: {
-        backgroundColor: '#f3f2f2',
+        backgroundColor: '#f3f5fe',
+        image: './assets/splash-icon-light.png',
         resizeMode: 'contain',
         dark: {
-          backgroundColor: '#1c1a17',
+          backgroundColor: '#161826',
+          image: './assets/splash-icon-dark.png',
         },
       },
     },

@@ -39,6 +39,6 @@ export default function OnboardingScreen({ navigation }: any) {
 const styles = StyleSheet.create({
   root: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: 18 },
   dialog: { width: '100%', maxWidth: 400, borderRadius: 7, borderWidth: 1, padding: 18, gap: 13 },
-  title: { fontFamily: 'CormorantGaramond_400Regular', fontSize: 34, lineHeight: 36 },
+  title: { fontFamily: 'Inter_400Regular', fontSize: 34, lineHeight: 36 },
   body: { fontSize: 14, lineHeight: 20 },
 });

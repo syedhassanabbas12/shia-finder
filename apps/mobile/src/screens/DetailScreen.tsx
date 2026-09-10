@@ -45,7 +45,7 @@ export default function DetailScreen({ route, navigation }: any) {
           </Text>
         </View>
 
-        <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 27, color: t.colors.text, marginTop: 12, marginBottom: 5 }}>{mosque.name}</Text>
+        <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 27, color: t.colors.text, marginTop: 12, marginBottom: 5 }}>{mosque.name}</Text>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 7, flexWrap: 'wrap', marginBottom: 9 }}>
           {!stale && (
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 }}>
@@ -79,7 +79,7 @@ export default function DetailScreen({ route, navigation }: any) {
           </View>
           {PRAYER_ORDER.map((p) => (
             <View key={p} style={[styles.tableRow, { borderBottomColor: t.colors.divider }]}>
-              <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', color: p === 'maghrib' ? t.colors.accent700 : t.colors.text, width: 80 }}>{PRAYER_LABEL[p]}</Text>
+              <Text style={{ fontFamily: 'Inter_500Medium', color: p === 'maghrib' ? t.colors.accent700 : t.colors.text, width: 80 }}>{PRAYER_LABEL[p]}</Text>
               <Text style={{ textAlign: 'right', flex: 1, color: t.colors.neutral700 }}>{mosque.jamaat[p].adhan}</Text>
               <Text style={{ textAlign: 'right', flex: 1, color: p === 'maghrib' ? t.colors.accent700 : t.colors.text }}>{mosque.jamaat[p].jamaat}</Text>
             </View>
@@ -121,7 +121,7 @@ export default function DetailScreen({ route, navigation }: any) {
       <Modal visible={directionsOpen} transparent animationType="slide" onRequestClose={() => setDirectionsOpen(false)}>
         <Pressable style={styles.backdrop} onPress={() => setDirectionsOpen(false)}>
           <View style={[styles.dialog, { backgroundColor: t.colors.surface, borderColor: t.colors.divider }]}>
-            <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 18, color: t.colors.text, marginBottom: 9 }}>Open {mosque.name} in</Text>
+            <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 18, color: t.colors.text, marginBottom: 9 }}>Open {mosque.name} in</Text>
             {['Apple Maps', 'Google Maps', 'Citymapper'].map((app) => (
               <Pressable key={app} onPress={() => setDirectionsOpen(false)} style={[styles.mapAppRow, { borderTopColor: t.colors.divider }]}>
                 <Text style={{ fontSize: 14.5, color: t.colors.text }}>{app}</Text>

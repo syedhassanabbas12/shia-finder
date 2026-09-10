@@ -81,11 +81,11 @@ export default function HomeScreen({ navigation }: any) {
             <Text style={{ fontSize: 10, letterSpacing: 1.2, textTransform: 'uppercase', color: t.colors.accent, marginBottom: 5 }}>
               Nearest to you now
             </Text>
-            <Text style={{ fontFamily: 'CormorantGaramond_400Regular', fontSize: 29, color: t.colors.text, marginBottom: 6 }}>
+            <Text style={{ fontFamily: 'Inter_400Regular', fontSize: 29, color: t.colors.text, marginBottom: 6 }}>
               {hero.name}
             </Text>
             <View style={{ flexDirection: 'row', gap: 8, alignItems: 'baseline' }}>
-              <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', color: t.colors.accent700 }}>{hero.jamaat.maghrib.jamaat}</Text>
+              <Text style={{ fontFamily: 'Inter_500Medium', color: t.colors.accent700 }}>{hero.jamaat.maghrib.jamaat}</Text>
               <Text style={{ color: t.colors.neutral700 }}>·</Text>
               <Text style={{ color: t.colors.text }}>{formatWalk(hero.walkMinutes)}</Text>
               <Text style={{ color: t.colors.neutral700 }}>·</Text>
@@ -104,7 +104,7 @@ export default function HomeScreen({ navigation }: any) {
             style={[styles.alsoRow, { borderTopColor: t.colors.divider }]}
           >
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
-              <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 15.5, color: t.colors.text }}>{m.name}</Text>
+              <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 15.5, color: t.colors.text }}>{m.name}</Text>
               <VerifiedBadge color={t.colors.accent} size={12} />
             </View>
             <Text style={{ fontSize: 11, color: t.colors.accent, textTransform: 'uppercase' }}>{formatDistance(m.distanceMeters)}</Text>
@@ -117,7 +117,7 @@ export default function HomeScreen({ navigation }: any) {
 
 const styles = StyleSheet.create({
   header: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 18, paddingVertical: 12, borderBottomWidth: 1 },
-  brand: { fontFamily: 'CormorantGaramond_600SemiBold', fontWeight: '600', fontSize: 22 },
+  brand: { fontFamily: 'Inter_500Medium', fontWeight: '600', fontSize: 22 },
   iconBtn: { width: 40, height: 40, borderRadius: 4, borderWidth: 1, alignItems: 'center', justifyContent: 'center' },
   locateBtn: { position: 'absolute', right: 12, bottom: 12, width: 44, height: 44, borderRadius: 22, borderWidth: 1, alignItems: 'center', justifyContent: 'center' },
   sheet: { borderTopWidth: 1, paddingHorizontal: 18, paddingTop: 9, paddingBottom: 18 },

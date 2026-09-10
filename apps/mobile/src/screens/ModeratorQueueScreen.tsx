@@ -26,7 +26,7 @@ export default function ModeratorQueueScreen() {
       <View style={[styles.header, { borderBottomColor: t.colors.divider }]}>
         <Text style={{ fontSize: 9.5, letterSpacing: 1.2, textTransform: 'uppercase', color: t.colors.accent, marginBottom: 4 }}>Moderator</Text>
         <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' }}>
-          <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 22, color: t.colors.text }}>Review queue</Text>
+          <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 22, color: t.colors.text }}>Review queue</Text>
           <Text style={{ fontSize: 11.5, color: t.colors.neutral700 }}>{queue.length} waiting</Text>
         </View>
       </View>
@@ -37,7 +37,7 @@ export default function ModeratorQueueScreen() {
               <Text style={{ fontSize: 10, letterSpacing: 1, textTransform: 'uppercase', color: t.colors.accent }}>{q.field}</Text>
               <Text style={{ fontSize: 10.5, color: t.colors.neutral700 }}>{new Date(q.submittedAt).toLocaleDateString()}</Text>
             </View>
-            <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 17, color: t.colors.text }}>{q.mosqueId}</Text>
+            <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 17, color: t.colors.text }}>{q.mosqueId}</Text>
             <Text><Text style={{ fontSize: 9.5, color: t.colors.neutral700 }}>was  </Text><Text style={{ textDecorationLine: 'line-through', color: t.colors.neutral700 }}>{q.fromValue}</Text></Text>
             <Text><Text style={{ fontSize: 9.5, color: t.colors.accent }}>now  </Text><Text style={{ color: t.colors.accent700 }}>{q.toValue}</Text></Text>
             <Text style={{ fontSize: 11.5, color: t.colors.neutral700, fontStyle: 'italic', borderLeftWidth: 1, borderLeftColor: t.colors.divider, paddingLeft: 9 }}>{q.source}</Text>
@@ -50,7 +50,7 @@ export default function ModeratorQueueScreen() {
         ))}
         {queue.length === 0 && (
           <View style={[styles.empty, { borderColor: t.colors.divider }]}>
-            <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 19, color: t.colors.text, marginBottom: 6 }}>All caught up</Text>
+            <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 19, color: t.colors.text, marginBottom: 6 }}>All caught up</Text>
             <Text style={{ fontSize: 12.5, color: t.colors.neutral700, textAlign: 'center' }}>
               Jazak Allah. Records lose their verified mark after a year and come back here for a fresh look.
             </Text>

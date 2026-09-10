@@ -19,7 +19,7 @@ export default function AddMosqueScreen({ navigation }: any) {
         <Text style={{ fontSize: 9.5, letterSpacing: 1.2, textTransform: 'uppercase', color: t.colors.accent, marginBottom: 4 }}>
           Step 1 of 3 · the essentials
         </Text>
-        <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 22, color: t.colors.text }}>Add a mosque</Text>
+        <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 22, color: t.colors.text }}>Add a mosque</Text>
       </View>
       <ScrollView style={{ padding: 18 }}>
         <View style={{ flexDirection: 'row', gap: 4, marginBottom: 18 }}>

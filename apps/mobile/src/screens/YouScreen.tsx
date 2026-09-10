@@ -38,7 +38,7 @@ export default function YouScreen() {
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: t.colors.bg }} edges={['top']}>
         <ScrollView style={{ padding: 18 }}>
-          <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 22, color: t.colors.text, marginBottom: 9 }}>You</Text>
+          <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 22, color: t.colors.text, marginBottom: 9 }}>You</Text>
           <Text style={{ fontSize: 13, color: t.colors.neutral700, marginBottom: 18, lineHeight: 19 }}>
             Sign in to save favourites, keep a quiet log of your visits, and — if the community asks you to — get
             access to the review queue. Reading and reporting stay open to everyone either way.
@@ -74,7 +74,7 @@ export default function YouScreen() {
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: t.colors.bg }} edges={['top']}>
       <ScrollView style={{ padding: 18 }}>
-        <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 22, color: t.colors.text }}>{handle}</Text>
+        <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 22, color: t.colors.text }}>{handle}</Text>
         <Text style={{ fontSize: 11.5, color: t.colors.neutral700, marginBottom: 18 }}>Member of the community register</Text>
 
         <Text style={{ fontSize: 10, letterSpacing: 1.2, textTransform: 'uppercase', color: t.colors.accent, marginBottom: 4 }}>Favourites</Text>
@@ -85,7 +85,7 @@ export default function YouScreen() {
         )}
         {favMosques.map((m) => (
           <View key={m.id} style={[styles.favRow, { borderTopColor: t.colors.divider }]}>
-            <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 16, color: t.colors.text }}>{m.name}</Text>
+            <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 16, color: t.colors.text }}>{m.name}</Text>
           </View>
         ))}
 

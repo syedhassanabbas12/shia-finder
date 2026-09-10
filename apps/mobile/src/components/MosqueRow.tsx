@@ -12,7 +12,7 @@ export default function MosqueRow({ m, theme, onPress }: { m: MosqueWithDistance
     <Pressable onPress={onPress} style={{ paddingVertical: 13, borderTopWidth: 1, borderTopColor: t.colors.divider }}>
       <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline' }}>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
-          <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontWeight: '600', fontSize: 16.5, color: t.colors.text }}>{m.name}</Text>
+          <Text style={{ fontFamily: 'Inter_500Medium', fontWeight: '600', fontSize: 16.5, color: t.colors.text }}>{m.name}</Text>
           {!stale && <VerifiedBadge color={t.colors.accent} size={12.5} />}
         </View>
         <Text style={{ fontSize: 11, color: t.colors.accent, textTransform: 'uppercase' }}>{formatDistance(m.distanceMeters)}</Text>

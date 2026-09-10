@@ -39,7 +39,7 @@ export default function EditScreen({ route, navigation }: any) {
     <SafeAreaView style={{ flex: 1, backgroundColor: t.colors.bg }} edges={['top']}>
       <View style={[styles.header, { borderBottomColor: t.colors.divider }]}>
         <Pressable onPress={() => navigation.goBack()} style={{ padding: 8 }}><Text style={{ color: t.colors.text, fontSize: 20 }}>‹</Text></Pressable>
-        <Text style={{ fontFamily: 'CormorantGaramond_600SemiBold', fontSize: 19, color: t.colors.text }}>Suggest an edit</Text>
+        <Text style={{ fontFamily: 'Inter_500Medium', fontSize: 19, color: t.colors.text }}>Suggest an edit</Text>
       </View>
       <ScrollView style={{ padding: 18 }}>
         <Text style={[styles.notice, { color: t.colors.neutral700, borderLeftColor: t.colors.accent }]}>

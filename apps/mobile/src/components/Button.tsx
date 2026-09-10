@@ -21,7 +21,7 @@ export default function Button({
         alignItems: 'center', justifyContent: 'center', paddingHorizontal: 16, opacity: disabled ? 0.45 : 1,
       }, style]}
     >
-      <Text style={{ color, fontFamily: 'CormorantGaramond_600SemiBold', fontWeight: '600', fontSize: 14 }}>{label}</Text>
+      <Text style={{ color, fontFamily: 'Inter_500Medium', fontWeight: '600', fontSize: 14 }}>{label}</Text>
     </Pressable>
   );
 }
