@@ -23,6 +23,13 @@ module.exports = {
           apiKey: process.env.GOOGLE_MAPS_API_KEY_ANDROID,
         },
       },
+      splash: {
+        backgroundColor: '#f3f2f2',
+        resizeMode: 'contain',
+        dark: {
+          backgroundColor: '#1c1a17',
+        },
+      },
     },
     plugins: [
       [
@@ -32,6 +39,7 @@ module.exports = {
             'Mihrab uses your location to show the nearest mosque and how long the walk is.',
         },
       ],
+      'expo-splash-screen',
     ],
   },
 };
