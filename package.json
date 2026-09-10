@@ -1,0 +1,19 @@
+{
+  "name": "mihrab",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mihrab — a community register of Shia mosques. Monorepo: web app, React Native app, shared core, and the public markdown register.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build:index": "node content/scripts/build-index.mjs",
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:mobile": "npm run start --workspace=apps/mobile",
+    "build:core": "npm run build --workspace=packages/core"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

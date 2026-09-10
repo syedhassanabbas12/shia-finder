@@ -1,0 +1,326 @@
+{
+  "generatedAt": "2026-09-09T23:56:31.025Z",
+  "mosques": [
+    {
+      "id": "ajk",
+      "name": "Aga Khan Jamatkhana",
+      "school": "Ismaili",
+      "area": "Eastgate",
+      "address": "70 Eastgate Way, Eastgate E7 8DR",
+      "coordinates": {
+        "lat": 51.5541,
+        "lng": -0.0142
+      },
+      "languages": [
+        "English",
+        "Gujarati"
+      ],
+      "phone": "020 7946 0900",
+      "website": "the.ismaili",
+      "facilities": [
+        "Step-free",
+        "Parking",
+        "Library"
+      ],
+      "verified": true,
+      "checked": "2026-07-30",
+      "checkedBy": "@karim.v",
+      "addedBy": "@shazia.n",
+      "jamaat": {
+        "fajr": {
+          "adhan": "—",
+          "jamaat": "—"
+        },
+        "zohr": {
+          "adhan": "—",
+          "jamaat": "—"
+        },
+        "asr": {
+          "adhan": "—",
+          "jamaat": "—"
+        },
+        "maghrib": {
+          "adhan": "—",
+          "jamaat": "19:30"
+        },
+        "isha": {
+          "adhan": "—",
+          "jamaat": "—"
+        }
+      },
+      "timesNote": "Times set by the jamatkhana; not derived from calculation.",
+      "event": "Evening prayers daily. Community night on Fridays.",
+      "slug": "aga-khan-jamatkhana",
+      "notes": "Visitors are welcome; check in at the reception desk on arrival.",
+      "notesBy": "added by @shazia.n, August 2026"
+    },
+    {
+      "id": "aqi",
+      "name": "Al-Qaim Institute",
+      "school": "Ithna Ashari",
+      "area": "Eastgate",
+      "address": "2 Eastgate Park Road, Eastgate E7 3BB",
+      "coordinates": {
+        "lat": 51.5522,
+        "lng": -0.0198
+      },
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "phone": "020 7946 0880",
+      "website": "alqaim.org",
+      "facilities": [
+        "Wudhu",
+        "Parking",
+        "Step-free",
+        "Library"
+      ],
+      "verified": true,
+      "checked": "2026-07-28",
+      "checkedBy": "@zahra.h",
+      "addedBy": "@yusuf.h",
+      "jamaat": {
+        "fajr": {
+          "adhan": "04:48",
+          "jamaat": "05:05"
+        },
+        "zohr": {
+          "adhan": "13:04",
+          "jamaat": "13:20"
+        },
+        "asr": {
+          "adhan": "17:22",
+          "jamaat": "17:40"
+        },
+        "maghrib": {
+          "adhan": "18:57",
+          "jamaat": "19:12"
+        },
+        "isha": {
+          "adhan": "20:25",
+          "jamaat": "20:40"
+        }
+      },
+      "timesNote": "Timings verified against the institute's printed card.",
+      "event": "Friday khutba in English, 1:15pm. Tafsir circle Wednesdays.",
+      "slug": "al-qaim-institute",
+      "notes": "Enter from the park side; the road gate is shut on weekends.",
+      "notesBy": "added by @yusuf.h, July 2026"
+    },
+    {
+      "id": "ajm",
+      "name": "Anjuman-e-Burhani Hall",
+      "school": "Bohra",
+      "area": "Millbrook",
+      "address": "19 Canal Wharf, Millbrook E5 9NP",
+      "coordinates": {
+        "lat": 51.5473,
+        "lng": -0.0582
+      },
+      "languages": [
+        "Lisan al-Dawat",
+        "English"
+      ],
+      "phone": "020 7946 0333",
+      "website": "—",
+      "facilities": [
+        "Women's section",
+        "Wudhu",
+        "Parking"
+      ],
+      "verified": true,
+      "checked": "2026-06-21",
+      "checkedBy": "@sakina.b",
+      "addedBy": "@murtaza.j",
+      "jamaat": {
+        "fajr": {
+          "adhan": "04:48",
+          "jamaat": "05:05"
+        },
+        "zohr": {
+          "adhan": "13:04",
+          "jamaat": "13:20"
+        },
+        "asr": {
+          "adhan": "17:22",
+          "jamaat": "17:40"
+        },
+        "maghrib": {
+          "adhan": "18:57",
+          "jamaat": "19:10"
+        },
+        "isha": {
+          "adhan": "20:25",
+          "jamaat": "20:40"
+        }
+      },
+      "timesNote": "Namaz times follow the jamaat calendar.",
+      "event": "Ashara programme, dates announced by the jamaat.",
+      "slug": "anjuman-e-burhani-hall",
+      "notes": "Thaal seating; arrive a few minutes early on Fridays.",
+      "notesBy": "added by @murtaza.j, June 2026"
+    },
+    {
+      "id": "hic",
+      "name": "Hussaini Islamic Centre",
+      "school": "Ithna Ashari",
+      "area": "Harrowfield",
+      "address": "42 Harrow Road, Harrowfield E9 4TS",
+      "coordinates": {
+        "lat": 51.5556,
+        "lng": -0.0396
+      },
+      "languages": [
+        "Urdu",
+        "English",
+        "Arabic"
+      ],
+      "phone": "020 7946 0112",
+      "website": "hussainicentre.org",
+      "facilities": [
+        "Women's section",
+        "Wudhu",
+        "Parking",
+        "Step-free"
+      ],
+      "verified": true,
+      "checked": "2026-08-12",
+      "checkedBy": "@zahra.h",
+      "addedBy": "@mehdi_a",
+      "jamaat": {
+        "fajr": {
+          "adhan": "04:48",
+          "jamaat": "05:05"
+        },
+        "zohr": {
+          "adhan": "13:04",
+          "jamaat": "13:20"
+        },
+        "asr": {
+          "adhan": "17:22",
+          "jamaat": "17:40"
+        },
+        "maghrib": {
+          "adhan": "18:57",
+          "jamaat": "19:12"
+        },
+        "isha": {
+          "adhan": "20:25",
+          "jamaat": "20:40"
+        }
+      },
+      "timesNote": "Timings confirmed from the centre's noticeboard on 12 Aug. Jamaat 15 minutes after adhan except Fajr.",
+      "event": "Majlis every Thursday, 8pm. Muharram programme from 12 July, nightly after Maghrib.",
+      "slug": "hussaini-islamic-centre",
+      "notes": "Ask at the office for the side gate after 9pm — the main door gets locked. Chai downstairs on Thursdays.",
+      "notesBy": "added by @mehdi_a, June 2026"
+    },
+    {
+      "id": "ida",
+      "name": "Idara-e-Jaaferiya",
+      "school": "Ithna Ashari",
+      "area": "Harrowfield",
+      "address": "8 Lea Bridge Lane, Harrowfield E9 7QP",
+      "coordinates": {
+        "lat": 51.5601,
+        "lng": -0.0355
+      },
+      "languages": [
+        "Urdu",
+        "English"
+      ],
+      "phone": "020 7946 0455",
+      "website": "idarajaaferiya.org.uk",
+      "facilities": [
+        "Women's section",
+        "Wudhu",
+        "Library"
+      ],
+      "verified": true,
+      "checked": "2026-07-03",
+      "checkedBy": "@fatima.r",
+      "addedBy": "@haider.k",
+      "jamaat": {
+        "fajr": {
+          "adhan": "04:48",
+          "jamaat": "05:05"
+        },
+        "zohr": {
+          "adhan": "13:04",
+          "jamaat": "13:20"
+        },
+        "asr": {
+          "adhan": "17:22",
+          "jamaat": "17:40"
+        },
+        "maghrib": {
+          "adhan": "18:57",
+          "jamaat": "19:15"
+        },
+        "isha": {
+          "adhan": "20:25",
+          "jamaat": "20:40"
+        }
+      },
+      "timesNote": "Jamaat times shift with the season; the committee posts them monthly.",
+      "event": "Weekly dua-e-kumayl, Thursday 9pm. Madrasah Sunday mornings.",
+      "slug": "idara-e-jaaferiya",
+      "notes": "Parking is street-only and fills up fast before Maghrib in Ramadan — the school car park opposite opens after 6pm.",
+      "notesBy": "added by @haider.k, May 2026"
+    },
+    {
+      "id": "zsc",
+      "name": "Zainabia Social Centre",
+      "school": "Ithna Ashari",
+      "area": "Millbrook",
+      "address": "115 Millbrook High Street, Millbrook E5 2LT",
+      "coordinates": {
+        "lat": 51.5495,
+        "lng": -0.0601
+      },
+      "languages": [
+        "English",
+        "Gujarati"
+      ],
+      "phone": "—",
+      "website": "—",
+      "facilities": [
+        "Women's section",
+        "Parking",
+        "Step-free"
+      ],
+      "verified": false,
+      "checked": "2025-02-09",
+      "checkedBy": "@anon",
+      "addedBy": "@nadia.s",
+      "jamaat": {
+        "fajr": {
+          "adhan": "04:48",
+          "jamaat": "05:05"
+        },
+        "zohr": {
+          "adhan": "13:04",
+          "jamaat": "13:20"
+        },
+        "asr": {
+          "adhan": "17:22",
+          "jamaat": "17:40"
+        },
+        "maghrib": {
+          "adhan": "18:57",
+          "jamaat": "19:15"
+        },
+        "isha": {
+          "adhan": "20:25",
+          "jamaat": "20:40"
+        }
+      },
+      "timesNote": "Nobody has confirmed these timings for over a year. Ring ahead, and please send in a correction.",
+      "event": "Monthly majlis, first Saturday. Youth night alternate Fridays.",
+      "slug": "zainabia-social-centre",
+      "notes": "The hall moved to the back of the building after the 2025 works — the entrance is on Bell Lane now.",
+      "notesBy": "added by @nadia.s, March 2026"
+    }
+  ]
+}

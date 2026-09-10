@@ -1,0 +1,27 @@
+name: Rebuild register index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/register/**"
+      - "content/scripts/build-index.mjs"
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node content/scripts/build-index.mjs
+      - name: Commit updated index
+        run: |
+          git config user.name "mihrab-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add content/index.json
+          git diff --cached --quiet || git commit -m "chore: rebuild register index [skip ci]"
+          git push
